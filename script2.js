@@ -16,7 +16,7 @@ function updateVisitorCount() {
 let queuePosition = 0; // 초기 대기열 위치 설정
 const spacing = 10; // 각 점 사이의 간격
 let dotCount = 0; // 현재 점의 개수
-const timePerDot = 1; //인당 대기 시간 (분)
+const timePerDot = 0.4; //인당 대기 시간 (분)
 
 function checkCongestion() {
     dots = dotCount;
